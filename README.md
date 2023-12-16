@@ -14,17 +14,20 @@ An easy to deploy demo application using [SAM](https://aws.amazon.com/serverless
 1. Clone the new repository
 1. Change the values in samconfig.toml as needed
 
-> region = "us-east-1"   
+    > region = "us-east-1"   
 
 1. Change the values in template.yaml as needed
 
-> AutoPublishAlias: demo
-> MemorySize: 512
+    > AutoPublishAlias: demo
+
+    > MemorySize: 512
 
 ## How to Package and Deploy
 
-> sam build 
-> sam deploy
+    > sam build 
+
+    > sam deploy
+
 
 ## Get and Invoke Endpoint 
 
